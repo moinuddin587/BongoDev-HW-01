@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 730px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.design {
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: column;
+    margin-bottom: 20px;
+}
+
+.details {
+    line-height: 1.5;
+}
+
+.details .title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.details .logo-views {
+    font-size: 22px;
+    color: rgb(192, 192, 191);
+
+}
+
+img {
+    border-radius: 10px;
+}

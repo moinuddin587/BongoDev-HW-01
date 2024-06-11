@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#info-card {
+    margin-left: 20px;
+    width: 1000px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.friends {
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px rgb(221, 221, 221);
+    border: 1px solid rgb(242, 241, 241);
+    width: 300px;
+    height: 480px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: grid;
+    justify-content: start;
+    gap: 15px;
+    grid-auto-flow: column;
+    /* grid-template-rows: 5fr 1fr; */
+    align-items: center;
+}
+
+p img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(74, 178, 220);
+    padding: 15px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.friend-details {
+    margin-left: 10px;
+}
+
+span {
+    font-size: 24px;
+    color: rgb(142, 142, 142);
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 15px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(66, 153, 183);
+    color: white;
+    border-style: none;
+}
+
+.div-follow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+    color: rgb(148, 142, 142);
+}
